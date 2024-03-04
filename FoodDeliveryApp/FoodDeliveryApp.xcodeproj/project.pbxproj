@@ -12,6 +12,7 @@
 		04E7D5282B964A1C0069BAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7D5272B964A1C0069BAFB /* ViewController.swift */; };
 		04E7D52D2B964A1E0069BAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E7D52C2B964A1E0069BAFB /* Assets.xcassets */; };
 		04E7D5302B964A1E0069BAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E7D52E2B964A1E0069BAFB /* LaunchScreen.storyboard */; };
+		04E7D53A2B96557C0069BAFB /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = 04E7D5392B96557C0069BAFB /* Roboto */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04E7D52C2B964A1E0069BAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E7D52F2B964A1E0069BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E7D5312B964A1E0069BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E7D5392B96557C0069BAFB /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		04E7D5222B964A1C0069BAFB /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				04E7D5372B96552F0069BAFB /* Resources */,
 				04E7D5232B964A1C0069BAFB /* AppDelegate.swift */,
 				04E7D5252B964A1C0069BAFB /* SceneDelegate.swift */,
 				04E7D5272B964A1C0069BAFB /* ViewController.swift */,
@@ -62,6 +65,22 @@
 				04E7D5312B964A1E0069BAFB /* Info.plist */,
 			);
 			path = FoodDeliveryApp;
+			sourceTree = "<group>";
+		};
+		04E7D5372B96552F0069BAFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04E7D5382B96554A0069BAFB /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04E7D5382B96554A0069BAFB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04E7D5392B96557C0069BAFB /* Roboto */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +143,7 @@
 			files = (
 				04E7D5302B964A1E0069BAFB /* LaunchScreen.storyboard in Resources */,
 				04E7D52D2B964A1E0069BAFB /* Assets.xcassets in Resources */,
+				04E7D53A2B96557C0069BAFB /* Roboto in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
