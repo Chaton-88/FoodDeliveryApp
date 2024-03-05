@@ -24,7 +24,7 @@ class ViewController: UIViewController {
             label.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20)
         ])
         
-        label.font = UIFont.systemFont(ofSize: 40, weight: UIFont.Weight(20))
+        label.font = .Roboto.thin.size(of: 40)
         label.textColor = .white
         
         view.backgroundColor = .red
